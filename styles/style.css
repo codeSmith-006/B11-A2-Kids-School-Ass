@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar section */
+
+/* Logo section */
+
+nav {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+header nav .logo {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+header nav .logo h1 {
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* Navbar links section */
+
+header nav .nav-links {
+    display: flex;
+    gap: 32px;
+}
+
+header nav .nav-links a {
+    all: unset;
+    color: rgb(1, 172, 253);
+    font-family: Quicksand;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    letter-spacing: 0%;
+    text-align: left;
+    cursor: pointer;
+}
+
+header nav .nav-links .link1 {
+    font-weight: 700;
+    color: rgb(254, 163, 1);
+}
+
+header nav .nav-links .link3 {
+    color: rgb(5, 212, 223);
+}
+
+header nav .nav-links .link4 {
+    color: rgb(93, 88, 239);
+}
+
+/* Navbar button section */
+
+header nav button {
+    all: unset;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.8rem;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 12px;
+    background: rgb(254, 163, 1);
+    padding: 10px;
+    cursor: pointer;
+}
+
