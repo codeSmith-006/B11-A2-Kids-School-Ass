@@ -1,0 +1,29 @@
+Must not use any lorem text 
+
+Navbar:
+1. Logo and text side by side
+2. 4 nav links with 4 different colors
+
+For responsive part:
+1. Just a logo on the left and a hamburger menu on the right just only for mobile screen
+2. a line in the nav bar
+
+Banner part:
+
+1. Color must be different for as in the figma file 
+
+Standard Curriculum:
+1. Must focus to the background 
+2. 3 card must be colored different gradiant color
+
+Must be use two right and left arrow for the next page
+
+Our storites:
+1. in our stories secition this contain a gradiant color from bottom to top this is must 
+2. in mobile view the bigger content will be vanished
+3. View all button must
+
+Challenge Part:
+1. In standard part, the left and right button will be vanished for mobile display 
+2. In our stories section must use a button as in shown in the figma
+3. Explore marque and use it in any place
