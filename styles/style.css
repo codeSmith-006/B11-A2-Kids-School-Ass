@@ -84,3 +84,59 @@ header nav button {
     cursor: pointer;
 }
 
+.hider {
+    display: none;
+}
+
+@media screen and (max-width: 390px) {
+
+    .hider {
+        display: flex;
+    }
+
+    header nav {
+        flex-direction: column;
+    }
+
+    header nav .logo {
+        justify-content: space-between;
+        width: 100%;
+        margin: 12px 16px;
+    }
+
+    header nav .nav-line {
+        width: 100%;
+        display: flex;
+        box-sizing: border-box;
+        border: 0.5px solid rgb(254, 163, 1);
+    }
+
+
+    header nav {
+        max-width: 390px;
+        margin: 0 auto;
+    }
+
+    header nav .logo img {
+        width: 39px;
+        height: 46px;
+    }
+
+    header nav .logo h1 {
+        display: none;
+    }
+
+    header nav .nav-links {
+        display: none;
+    }
+
+    header nav button {
+        display: none;
+    }
+
+    header nav .logo .hamb-icon {
+        width: 30px;
+        height: 30px;
+    }
+}
+
