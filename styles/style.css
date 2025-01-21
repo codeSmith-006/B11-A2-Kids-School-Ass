@@ -158,7 +158,6 @@ main .Curriculum-background {
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    height: 879px;
 }
 
 main .Curriculum-background .content {
@@ -316,7 +315,6 @@ main .our-stories {
 main .our-stories .stories {
     max-width: 1136px;
     margin: 0 auto;
-    /* height: 700px; */
     display: grid;
     grid-template-columns: 540px 1fr 1fr;
     grid-template-rows: repeat(2, 1fr);
@@ -328,10 +326,8 @@ main .our-stories .stories {
 
 
 main .our-stories .stories .story {
-    /* grid-row: 1 / span 2; */
     border-radius: 16px;
     background: rgb(255, 255, 255);
-    /* background-color: red; */
 
 }
 
@@ -497,7 +493,7 @@ main .our-stories .str-grid > h1 {
 }
 
 
-main .our-stories button {
+main .our-stories .str-grid button {
     all: unset;
     width: 75px;
     color: rgb(255, 255, 255);
@@ -516,6 +512,8 @@ main .our-stories button {
 
 main .our-stories .stories .story img {
     border-radius: 16px 16px 0px 0px;
+    width: 100%;
+    height: auto;
 }
 
 main .our-stories .stories .story1 {
@@ -726,6 +724,85 @@ main .our-stories .stories .story4 .content h1 {
     main .Curriculum-background .content h1 {
         font-size: 1.5rem;
     }
+
+    main .our-stories .stories .big-story {
+        display: none;
+    }
+
+
+    main .our-stories .stories {
+        width: 95%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 180px);
+        gap: 10px;
+        height: auto;
+    }
+
+    main .our-stories .stories .story1 .content h1 {
+        font-size: 0.5rem;
+        margin-top: 15px;
+        margin-left: 23px;
+        line-height: 17.12px;
+    }
+
+    
+    main .our-stories .stories .story1 h2 {
+        font-size: 0.5rem;
+        padding: 5px 11px;
+        top: 58%;
+    }
+
+    main .our-stories .stories .story2 .content h1 {
+        font-size: 0.5rem;
+        margin-top: 15px;
+        margin-left: 23px;
+        line-height: 17.12px;
+    }
+
+    
+    main .our-stories .stories .story2 h2 {
+        font-size: 0.5rem;
+        padding: 5px 11px;
+        top: 58%;
+    }
+
+    main .our-stories .stories .story3 .content h1 {
+        font-size: 0.5rem;
+        margin-top: 15px;
+        margin-left: 23px;
+        line-height: 17.12px;
+    }
+
+    
+    main .our-stories .stories .story3 h2 {
+        font-size: 0.5rem;
+        padding: 5px 11px;
+        top: 58%;
+    }
+
+    main .our-stories .stories .story4 .content h1 {
+        font-size: 0.5rem;
+        margin-top: 15px;
+        margin-left: 23px;
+        line-height: 17.12px;
+    }
+
+    
+    main .our-stories .stories .story4 h2 {
+        font-size: 0.5rem;
+        padding: 5px 11px;
+        top: 58%;
+    }
+
+    main .our-stories .str-grid button {
+        margin: 20px auto;
+    }
+
+
+
+
 
 
 }
