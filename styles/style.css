@@ -152,6 +152,7 @@ header .enrollment .content button {
 
 main .Curriculum-background {
     max-width: 1440px;
+    margin: 0 auto;
     background: url(/assets/bg.png);
     background-size: cover;
     background-position: center;
@@ -386,7 +387,6 @@ main .Curriculum-background .content .next-page .right {
         line-height: 3rem;
         letter-spacing: 0%;
         text-align: center;
-        margin-top: 20px;
         margin-bottom: 18px;
     }
 
@@ -406,4 +406,35 @@ main .Curriculum-background .content .next-page .right {
         width: 95%;
         height: auto;
     }
+
+    main .Curriculum-background .content h1 {
+        margin-bottom: 20px;
+    }
+
+    main .Curriculum-background .content {
+        margin-top: 40px;
+    }
+
+    main .Curriculum-background .content .cards {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+    }
+
+    main .Curriculum-background .content .cards .card {
+        width: 95%;
+        height: auto;
+        margin-bottom: 12px;
+    }
+
+    main .Curriculum-background .content .next-page {
+        display: none;
+    }
+
+    main .Curriculum-background .content h1 {
+        font-size: 1.5rem;
+    }
+
+
 }
