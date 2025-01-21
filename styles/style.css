@@ -302,6 +302,296 @@ main .Curriculum-background .content .next-page .right {
 }
 
 
+/* Our stories Section */
+
+main .our-stories {
+    max-width: 1440px;
+    margin: 0 auto;
+    background: url(/assets/bg.png), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main .our-stories .stories {
+    max-width: 1136px;
+    margin: 0 auto;
+    /* height: 700px; */
+    display: grid;
+    grid-template-columns: 540px 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 19px;
+    height: 630.52px;
+    width: 100%;
+}
+
+
+
+main .our-stories .stories .story {
+    /* grid-row: 1 / span 2; */
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    /* background-color: red; */
+
+}
+
+main .our-stories .stories .big-story {
+    position: relative;
+    grid-row: 1 / span 2;
+    height: auto;
+}
+
+
+main .our-stories .stories .big-story img {
+    border-radius: 16px 16px 0px 0px;
+    width: 100%;
+    height: auto;
+}
+
+main .our-stories .stories .big-story .content {
+    width: 80%;
+    height: auto;
+    margin-left: 38px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 61px;
+    margin-bottom: 34px;
+}
+
+main .our-stories .stories .big-story .content h1 {
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 51px;
+}
+
+
+main .our-stories .stories .big-story .content p {
+    color: rgb(102, 102, 102);
+    font-family: Raleway;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+main .our-stories .stories .big-story .content h2 {
+    position: absolute;
+    z-index: 2;
+    top: 54%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 47.93px;
+    background: rgb(60, 216, 232);
+    padding: 14px 18px;
+}
+
+main .our-stories .stories .story1 h2 {
+    position: absolute;
+    z-index: 2;
+    top: 51%;
+    left: 12%;
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 47.93px;
+    background: rgb(149, 178, 38);
+    padding: 9px 18px;
+}
+
+main .our-stories .stories .story2 h2 {
+    position: absolute;
+    z-index: 2;
+    top: 51%;
+    left: 12%;
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 47.93px;
+    background: rgb(93, 88, 240);
+    padding: 9px 18px;
+}
+
+main .our-stories .stories .story3 h2 {
+    position: absolute;
+    z-index: 2;
+    top: 51%;
+    left: 12%;
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 47.93px;
+    background: rgb(93, 88, 240);
+    padding: 9px 18px;
+}
+
+main .our-stories .stories .story4 h2 {
+    position: absolute;
+    z-index: 2;
+    top: 51%;
+    left: 12%;
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 47.93px;
+    background: rgb(149, 178, 38);
+    padding: 9px 18px;
+}
+
+
+main .our-stories .str-grid {
+    position: relative;
+    max-width: 1136px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+}
+
+main .our-stories .str-grid > h1 {
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 57.5px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+
+main .our-stories button {
+    all: unset;
+    width: 75px;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 10px;
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    /* margin-top: 80px; */
+    margin: 80px auto;
+}
+
+main .our-stories .stories .story img {
+    border-radius: 16px 16px 0px 0px;
+}
+
+main .our-stories .stories .story1 {
+    position: relative;
+}
+
+main .our-stories .stories .story2 {
+    position: relative;
+}
+
+main .our-stories .stories .story3 {
+    position: relative;
+}
+
+main .our-stories .stories .story4 {
+    position: relative;
+}
+
+main .our-stories .stories .story1 .content h1 {
+    color: rgb(0, 0, 0);
+    width: 80%;
+    font-family: Quicksand;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    margin-top: 43px;
+    margin-left: 37px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+main .our-stories .stories .story2 .content h1 {
+    color: rgb(0, 0, 0);
+    width: 80%;
+    font-family: Quicksand;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    margin-top: 43px;
+    margin-left: 37px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+main .our-stories .stories .story3 .content h1 {
+    color: rgb(0, 0, 0);
+    width: 80%;
+    font-family: Quicksand;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    margin-top: 43px;
+    margin-left: 37px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+main .our-stories .stories .story4 .content h1 {
+    color: rgb(0, 0, 0);
+    width: 80%;
+    font-family: Quicksand;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    margin-top: 43px;
+    margin-left: 37px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+
+
+
+
+
 
 
 
