@@ -230,12 +230,12 @@ main .Curriculum-background .content .cards .card .card-content .read-more {
 
 main .Curriculum-background .content .cards .card {
     width: 367.8px;
-    height: auto;
     box-sizing: border-box;
     border: 0.94px solid rgb(222, 245, 255);
     border-radius: 18.86px;
     box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
     background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    margin-bottom: 80px;
 }
 
 main .Curriculum-background .content .cards .card2 {
@@ -245,6 +245,61 @@ main .Curriculum-background .content .cards .card2 {
     box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
     background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
 }
+
+main .Curriculum-background .content .cards .card2 {
+    box-sizing: border-box;
+    border: 0.94px solid rgb(255, 244, 220);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+
+main .Curriculum-background .content .cards .card2 .card-content .read-more {
+    color: rgb(240, 170, 0);
+    font-family: Quicksand;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+main .Curriculum-background .content .cards .card3 {
+    box-sizing: border-box;
+    border: 0.94px solid rgb(242, 232, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+
+main .Curriculum-background .content .cards .card3 .card-content .read-more {
+    color: rgb(135, 0, 255);
+    font-family: Quicksand;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+main .Curriculum-background .content .next-page {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+main .Curriculum-background .content .next-page img {
+    height: 62px;
+    width: 62px;
+}
+
+
+
+main .Curriculum-background .content .next-page .right {
+    transform: rotate(180deg);
+}
+
+
 
 
 
@@ -352,4 +407,3 @@ main .Curriculum-background .content .cards .card2 {
         height: auto;
     }
 }
-
