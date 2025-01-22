@@ -341,12 +341,10 @@ main .our-stories .stories .big-story {
 main .our-stories .stories .big-story img {
     border-radius: 16px 16px 0px 0px;
     width: 100%;
-    height: auto;
 }
 
 main .our-stories .stories .big-story .content {
     width: 80%;
-    height: auto;
     margin-left: 38px;
     display: flex;
     flex-direction: column;
@@ -471,7 +469,7 @@ main .our-stories .stories .story4 h2 {
 
 
 main .our-stories .str-grid {
-    position: relative;
+    /* position: relative; */
     max-width: 1136px;
     margin: 0 auto;
     display: flex;
@@ -513,7 +511,6 @@ main .our-stories .str-grid button {
 main .our-stories .stories .story img {
     border-radius: 16px 16px 0px 0px;
     width: 100%;
-    height: auto;
 }
 
 main .our-stories .stories .story1 {
@@ -852,7 +849,7 @@ footer .social-links .links {
         margin: 0 auto;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 180px);
+        grid-template-rows: repeat(2, 1fr);
         gap: 10px;
         height: auto;
     }
@@ -862,6 +859,7 @@ footer .social-links .links {
         margin-top: 15px;
         margin-left: 23px;
         line-height: 17.12px;
+        margin-bottom: 18px;
     }
 
     
@@ -934,6 +932,11 @@ footer .social-links .links {
         gap: 5px;
         padding-top: 28px;
     }
+
+    main .our-stories .stories .story img {
+        max-height: 105.39px;
+    }
+
 
 
 }
