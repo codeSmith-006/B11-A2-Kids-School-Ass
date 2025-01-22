@@ -10,7 +10,10 @@
 /* Navbar section */
 
 /* Logo section */
-
+header {
+    max-width: 1440px;
+    margin: 0 auto;
+}
 nav {
     max-width: 1160px;
     margin: 0 auto;
@@ -234,9 +237,9 @@ main .Curriculum-background .content .cards .card {
     border: 0.94px solid rgb(222, 245, 255);
     border-radius: 18.86px;
     box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
-    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
     margin-bottom: 80px;
-    
+
 }
 
 main .Curriculum-background .content .cards .card2 {
@@ -244,7 +247,7 @@ main .Curriculum-background .content .cards .card2 {
     border: 0.94px solid rgb(255, 244, 220);
     border-radius: 18.86px;
     box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
-    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
 }
 
 main .Curriculum-background .content .cards .card2 {
@@ -252,7 +255,7 @@ main .Curriculum-background .content .cards .card2 {
     border: 0.94px solid rgb(255, 244, 220);
     border-radius: 18.86px;
     box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
-    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
 }
 
 main .Curriculum-background .content .cards .card2 .card-content .read-more {
@@ -269,7 +272,7 @@ main .Curriculum-background .content .cards .card3 {
     border: 0.94px solid rgb(242, 232, 255);
     border-radius: 18.86px;
     box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
-    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
 }
 
 main .Curriculum-background .content .cards .card3 .card-content .read-more {
@@ -306,14 +309,15 @@ main .Curriculum-background .content .next-page .right {
 main .our-stories {
     max-width: 1440px;
     margin: 0 auto;
-    background: url(/assets/bg.png), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);;
+    background: url(/assets/bg.png), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+    ;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 main .our-stories .stories {
-    max-width: 1136px;
+    max-width: 1160px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 540px 1fr 1fr;
@@ -417,7 +421,7 @@ main .our-stories .stories .story1 h2 {
 main .our-stories .stories .story2 h2 {
     position: absolute;
     z-index: 2;
-    top: 51%;
+    top: 85%;
     left: 12%;
     color: rgb(255, 255, 255);
     font-family: Raleway;
@@ -435,7 +439,7 @@ main .our-stories .stories .story2 h2 {
 main .our-stories .stories .story3 h2 {
     position: absolute;
     z-index: 2;
-    top: 51%;
+    top: 85%;
     left: 12%;
     color: rgb(255, 255, 255);
     font-family: Raleway;
@@ -453,7 +457,7 @@ main .our-stories .stories .story3 h2 {
 main .our-stories .stories .story4 h2 {
     position: absolute;
     z-index: 2;
-    top: 51%;
+    top: 85%;
     left: 12%;
     color: rgb(255, 255, 255);
     font-family: Raleway;
@@ -471,7 +475,7 @@ main .our-stories .stories .story4 h2 {
 
 main .our-stories .str-grid {
     /* position: relative; */
-    max-width: 1136px;
+    max-width: 1160px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -479,7 +483,7 @@ main .our-stories .str-grid {
     align-items: center;
 }
 
-main .our-stories .str-grid > h1 {
+main .our-stories .str-grid>h1 {
     color: rgb(0, 0, 0);
     font-family: Quicksand;
     font-size: 2.8rem;
@@ -591,7 +595,7 @@ footer {
 }
 
 .footer-content {
-    max-width: 1136px;
+    max-width: 1160px;
     height: 519px;
     margin: 0 auto;
     display: flex;
@@ -609,6 +613,7 @@ footer .kids .heading {
     align-items: center;
     gap: 10px;
 }
+
 footer .kids .heading img {
     height: 82px;
 }
@@ -629,7 +634,7 @@ footer .kids .heading h1 {
     width: 206px;
     color: rgb(255, 255, 255);
     font-family: Quicksand;
-    font-size:2.7rem;
+    font-size: 2.7rem;
     font-weight: 700;
     letter-spacing: 0%;
     text-align: left;
@@ -700,6 +705,22 @@ footer .social-links .links img {
 footer .social-links .links {
     display: flex;
     gap: 10px;
+}
+
+footer .copyright {
+    width: 25rem;
+    font-family: Quicksand;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+
+footer marquee {
+    max-width: 100%;
 }
 
 
@@ -863,7 +884,7 @@ footer .social-links .links {
         margin-bottom: 18px;
     }
 
-    
+
     main .our-stories .stories .story1 h2 {
         font-size: 9px;
         padding: 5px 11px;
@@ -877,7 +898,7 @@ footer .social-links .links {
         line-height: 17.12px;
     }
 
-    
+
     main .our-stories .stories .story2 h2 {
         font-size: 9px;
         padding: 5px 11px;
@@ -891,7 +912,7 @@ footer .social-links .links {
         line-height: 17.12px;
     }
 
-    
+
     main .our-stories .stories .story3 h2 {
         font-size: 9px;
         padding: 5px 11px;
@@ -905,7 +926,7 @@ footer .social-links .links {
         line-height: 17.12px;
     }
 
-    
+
     main .our-stories .stories .story4 h2 {
         font-size: 9px;
         padding: 5px 11px;
@@ -927,7 +948,7 @@ footer .social-links .links {
     footer .kids p {
         font-size: 1rem;
         margin-top: 3px;
-    } 
+    }
 
     footer .kids .heading {
         gap: 5px;
@@ -936,6 +957,10 @@ footer .social-links .links {
 
     main .our-stories .stories .story img {
         max-height: 105.39px;
+    }
+
+    footer .copyright {
+        font-size: 1rem;
     }
 
 
