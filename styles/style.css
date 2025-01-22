@@ -156,7 +156,7 @@ header .enrollment .content button {
 main .Curriculum-background {
     max-width: 1440px;
     margin: 0 auto;
-    background: url(assets/bg.png);
+    background: url(../assets/bg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
