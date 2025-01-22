@@ -398,7 +398,8 @@ main .our-stories .stories .big-story .content h2 {
 main .our-stories .stories .story1 h2 {
     position: absolute;
     z-index: 2;
-    top: 51%;
+    /* top: 51%; */
+    top: 85%;
     left: 12%;
     color: rgb(255, 255, 255);
     font-family: Raleway;
@@ -508,24 +509,24 @@ main .our-stories .str-grid button {
     margin: 80px auto;
 }
 
-main .our-stories .stories .story img {
+main .our-stories .stories .story .img-date img {
     border-radius: 16px 16px 0px 0px;
     width: 100%;
 }
 
-main .our-stories .stories .story1 {
+main .our-stories .stories .story1 .img-date {
     position: relative;
 }
 
-main .our-stories .stories .story2 {
+main .our-stories .stories .story2 .img-date {
     position: relative;
 }
 
-main .our-stories .stories .story3 {
+main .our-stories .stories .story3 .img-date {
     position: relative;
 }
 
-main .our-stories .stories .story4 {
+main .our-stories .stories .story4 .img-date {
     position: relative;
 }
 
@@ -866,7 +867,7 @@ footer .social-links .links {
     main .our-stories .stories .story1 h2 {
         font-size: 9px;
         padding: 5px 11px;
-        top:58%;
+        top: 80%;
     }
 
     main .our-stories .stories .story2 .content h1 {
@@ -880,7 +881,7 @@ footer .social-links .links {
     main .our-stories .stories .story2 h2 {
         font-size: 9px;
         padding: 5px 11px;
-        top: 58%;
+        top: 80%;
     }
 
     main .our-stories .stories .story3 .content h1 {
@@ -894,7 +895,7 @@ footer .social-links .links {
     main .our-stories .stories .story3 h2 {
         font-size: 9px;
         padding: 5px 11px;
-        top: 58%;
+        top: 80%;
     }
 
     main .our-stories .stories .story4 .content h1 {
@@ -908,7 +909,7 @@ footer .social-links .links {
     main .our-stories .stories .story4 h2 {
         font-size: 9px;
         padding: 5px 11px;
-        top: 58%;
+        top: 80%;
     }
 
     main .our-stories .str-grid button {
